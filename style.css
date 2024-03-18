@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#nova-tarefa {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#adicionar-tarefa {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#lista-tarefas {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-tarefas li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#lista-tarefas li.concluida {
+    background-color: #ddd;
+    text-decoration: line-through;
+}
+
+#lista-tarefas li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
